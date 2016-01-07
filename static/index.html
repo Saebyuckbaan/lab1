@@ -3,24 +3,45 @@
 <html>
 <head>
 	<link type ="text/css" rel="stylesheet" href="style.css" >
+	<link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
 	<meta charset="utf-8">
 	<title>HCI Project Portfolio</title>
 </head>
 
 <body>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="./dist/js/bootstrap.min.js"></script>
+
+<div class ="site-wrapper">
+	<ul class="nav nav-pills" >
+	  <li role="presentation" class="page-scroll active"><a href="#Davis">Davis</a></li>
+	  <li role="presentation" class="page-scroll"><a href="#Portfolio">Portfolio</a></li>
+	</ul>
 	<!-- this is a comment in HTML -->
-	<h1>Scott Klemmer</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
+	<div class ="row Davis">
+		<div class= "col-lg-12" id="Davis">
+			<div class ="intro-text"> 
+			<h1>Davis Yi</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
+			</div>
+		</div>
+	</div>
 
-	<!-- p means paragraph -->
-	<p>Scott is an Associate Professor of Cognitive Science and Computer Science & Engineering at UC San Diego, where he is a co-founder and Associate Director of the Design Lab. He previously served as Associate Professor of Computer Science at Stanford, where he co-directed the HCI Group, held the Bredt Faculty Scholar chair, and was a founding participant in the d.school. </p>
+	<div class ="row">
+		<div class= "col-lg-12" id="Portfolio">
+			<h4>Project Portfolio</h4>
+			<!-- p means paragraph -->
+			<p>Scott is an Associate Professor of Cognitive Science and Computer Science & Engineering at UC San Diego, where he is a co-founder and Associate Director of the Design Lab. He previously served as Associate Professor of Computer Science at Stanford, where he co-directed the HCI Group, held the Bredt Faculty Scholar chair, and was a founding participant in the d.school. </p>
 
-	<h4>Projects</h4>
-	<ol>
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+			<h4>Projects</h4>
+			<ol>
+				<li>Design Thinking</li>
+				<li>Needfinding</li>
+				<li>Prototyping</li>
+				<li>...</li>
+			</ol>
+		</div>
+	</div>
+</div>
 </body>
 </html>
