@@ -4,7 +4,7 @@ html, body {
 	color: #FFF !important;
 	height:  100% !important;
 }
-/*
+
 a {
 	text-decoration: none !important;
 }
@@ -19,6 +19,7 @@ a {
 }
 
 .site-wrapper{
+	/*Give 200 px padding to prevent hiding contents by navigation bar */
 	padding-top: 200px;
 }
 
@@ -29,4 +30,4 @@ a {
 
 .Portfolio{
 	margin-bottom: 25%;
-}*/
+}
